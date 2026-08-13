@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Intuitive interface flow</title><desc id="desc">Clear visual pathways connect content sections and calls to action.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07141d"/><stop offset="1" stop-color="#05070a"/></linearGradient>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7abaff" stop-opacity=".92"/><stop offset="1" stop-color="#609db7" stop-opacity=".46"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#9fe3ff" stop-opacity=".30"/><stop offset="1" stop-color="#9fe3ff" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<circle cx="930" cy="118" r="290" fill="url(#glow)" filter="url(#soft)"/>
+<g opacity=".10" stroke="#7abaff"><path d="M0 110H1200M0 220H1200M0 330H1200M0 440H1200M0 550H1200"/><path d="M120 0V675M300 0V675M480 0V675M660 0V675M840 0V675M1020 0V675"/></g>
+
+<g fill="none"><path d="M120 510C300 370 280 170 500 190s250 265 470 90" stroke="url(#g1)" stroke-width="14" stroke-linecap="round"/>
+<circle cx="145" cy="492" r="62" fill="#111822" stroke="#7abaff" stroke-width="3"/><circle cx="500" cy="192" r="74" fill="#111822" stroke="#9fe3ff" stroke-width="3"/><circle cx="960" cy="280" r="72" fill="#111822" stroke="#7abaff" stroke-width="3"/>
+<rect x="260" y="390" width="240" height="125" rx="18" fill="#0d1219" stroke="#609db7"/><rect x="650" y="390" width="300" height="125" rx="18" fill="#0d1219" stroke="#609db7"/>
+<path d="M295 430h170M295 468h120M685 430h220M685 468h155" stroke="#7abaff" stroke-width="10" opacity=".58"/></g>
+</svg>

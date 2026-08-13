@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Referral commission growth</title><desc id="desc">A referral network branches into multiple client projects and recurring value paths.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17110d"/><stop offset="1" stop-color="#05070a"/></linearGradient>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7abaff" stop-opacity=".92"/><stop offset="1" stop-color="#d3b18d" stop-opacity=".46"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#ffd58a" stop-opacity=".30"/><stop offset="1" stop-color="#ffd58a" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<circle cx="930" cy="118" r="290" fill="url(#glow)" filter="url(#soft)"/>
+<g opacity=".10" stroke="#7abaff"><path d="M0 110H1200M0 220H1200M0 330H1200M0 440H1200M0 550H1200"/><path d="M120 0V675M300 0V675M480 0V675M660 0V675M840 0V675M1020 0V675"/></g>
+
+<g fill="none" stroke-linecap="round"><circle cx="190" cy="338" r="85" fill="#111822" stroke="#7abaff" stroke-width="3"/><path d="M270 338h175M445 338c105 0 90-165 195-165h130M445 338c105 0 90 0 195 0h130M445 338c105 0 90 165 195 165h130" stroke="url(#g1)" stroke-width="9"/><g fill="#111822" stroke="#d3b18d" stroke-width="3"><circle cx="835" cy="173" r="68"/><circle cx="835" cy="338" r="68"/><circle cx="835" cy="503" r="68"/></g><path d="M920 173h135M920 338h135M920 503h135" stroke="#ffd58a" stroke-width="10"/><path d="M1030 143l35 30-35 30M1030 308l35 30-35 30M1030 473l35 30-35 30" stroke="#ffd58a" stroke-width="8"/></g>
+</svg>

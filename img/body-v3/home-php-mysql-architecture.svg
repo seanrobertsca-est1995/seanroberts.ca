@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">PHP and MySQL architecture</title><desc id="desc">Abstract application layers connected to a relational database.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111018"/><stop offset="1" stop-color="#05070a"/></linearGradient>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7abaff" stop-opacity=".92"/><stop offset="1" stop-color="#f0a85e" stop-opacity=".46"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#f4f293" stop-opacity=".30"/><stop offset="1" stop-color="#f4f293" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<circle cx="930" cy="118" r="290" fill="url(#glow)" filter="url(#soft)"/>
+<g opacity=".10" stroke="#7abaff"><path d="M0 110H1200M0 220H1200M0 330H1200M0 440H1200M0 550H1200"/><path d="M120 0V675M300 0V675M480 0V675M660 0V675M840 0V675M1020 0V675"/></g>
+
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+ <rect x="95" y="155" width="300" height="365" rx="28" fill="#0d1219" stroke="#7abaff" stroke-width="3"/>
+ <path d="M145 225h200M145 275h145M145 325h175M145 375h120" stroke="#7abaff" stroke-width="12" opacity=".58"/>
+ <path d="M480 337h185" stroke="url(#g1)" stroke-width="8"/><path d="M625 306l40 31-40 31" stroke="#f4f293" stroke-width="8"/>
+ <ellipse cx="855" cy="220" rx="165" ry="56" fill="#111822" stroke="#f0a85e" stroke-width="3"/>
+ <path d="M690 220v225c0 31 74 56 165 56s165-25 165-56V220" fill="#111822" stroke="#f0a85e" stroke-width="3"/>
+ <path d="M690 330c0 31 74 56 165 56s165-25 165-56M690 414c0 31 74 56 165 56s165-25 165-56" stroke="#f0a85e" stroke-width="3"/>
+</g>
+</svg>

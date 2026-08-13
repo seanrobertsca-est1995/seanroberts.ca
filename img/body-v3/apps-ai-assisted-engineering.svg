@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">AI assisted engineering</title><desc id="desc">AI-generated work passes through human architecture review security checks and tests.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#160e14"/><stop offset="1" stop-color="#05070a"/></linearGradient>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7abaff" stop-opacity=".92"/><stop offset="1" stop-color="#b96c58" stop-opacity=".46"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#f4b176" stop-opacity=".30"/><stop offset="1" stop-color="#f4b176" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<circle cx="930" cy="118" r="290" fill="url(#glow)" filter="url(#soft)"/>
+<g opacity=".10" stroke="#7abaff"><path d="M0 110H1200M0 220H1200M0 330H1200M0 440H1200M0 550H1200"/><path d="M120 0V675M300 0V675M480 0V675M660 0V675M840 0V675M1020 0V675"/></g>
+
+<g fill="none" stroke-width="3"><circle cx="175" cy="337" r="110" fill="#111822" stroke="#b96c58"/><path d="M135 300h80M135 337h80M135 374h80" stroke="#f4b176" stroke-width="10" stroke-linecap="round"/>
+<path d="M285 337h150" stroke="url(#g1)" stroke-width="9"/><rect x="445" y="205" width="240" height="265" rx="28" fill="#0d1219" stroke="#7abaff"/><path d="M495 275h140M495 325h95M495 375h125" stroke="#7abaff" stroke-width="11" opacity=".6"/>
+<path d="M685 337h105" stroke="url(#g1)" stroke-width="9"/><path d="M835 240l85 45v100c0 74-85 120-85 120s-85-46-85-120V285z" fill="#111822" stroke="#f4b176"/><path d="M800 365l26 28 52-67" stroke="#f4f293" stroke-width="11"/></g>
+</svg>

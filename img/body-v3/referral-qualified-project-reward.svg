@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Qualified project reward</title><desc id="desc">A project milestone crosses the qualification threshold and reaches a reward.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17110d"/><stop offset="1" stop-color="#05070a"/></linearGradient>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7abaff" stop-opacity=".92"/><stop offset="1" stop-color="#d3b18d" stop-opacity=".46"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#ffd58a" stop-opacity=".30"/><stop offset="1" stop-color="#ffd58a" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<circle cx="930" cy="118" r="290" fill="url(#glow)" filter="url(#soft)"/>
+<g opacity=".10" stroke="#7abaff"><path d="M0 110H1200M0 220H1200M0 330H1200M0 440H1200M0 550H1200"/><path d="M120 0V675M300 0V675M480 0V675M660 0V675M840 0V675M1020 0V675"/></g>
+
+<g fill="none"><path d="M110 485C290 420 370 500 520 360s240-80 335-170 160-40 235-80" stroke="url(#g1)" stroke-width="13" stroke-linecap="round"/><path d="M545 160v360" stroke="#d3b18d" stroke-width="3" stroke-dasharray="12 14"/><circle cx="545" cy="340" r="72" fill="#111822" stroke="#7abaff" stroke-width="3"/><path d="M512 340l22 24 47-66" stroke="#f4f293" stroke-width="11"/><circle cx="1000" cy="160" r="115" fill="#111822" stroke="#ffd58a" stroke-width="3"/><text x="1000" y="211" fill="#ffd58a" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="700" text-anchor="middle">$</text></g>
+</svg>
