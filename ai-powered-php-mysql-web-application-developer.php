@@ -46,7 +46,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
         "image": "https://seanroberts.ca/social.png",
         "description": "SeanRoberts Web Design provides Canadian web design, full-stack development, custom PHP/MySQL solutions, and SEO-focused website builds.",
         "telephone": "+1-204-899-7142",
-        "email": "info@seanroberts.ca",
+        "email": "seanroberts-ca@outlook.com",
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Winnipeg",
@@ -260,7 +260,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
 
                         <div class="lp-cta-row mb-30">
                             <!-- <a class="lp-button" title="Book a free consultation with Sean Roberts"
-                                href="mailto:info@seanroberts.ca">Book a Free Consultation Today!</a> -->
+                                href="mailto:seanroberts-ca@outlook.com">Book a Free Consultation Today!</a> -->
                             <a class="lp-button-secondary" title="Call Sean Roberts using WhatsApp (it's free to use)."
                                  target="_blank" href="https://wa.me/12048997142" target="_blank">Call Sean Today!</a>
                         </div>
@@ -281,7 +281,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
                                 <p>AI-assisted development can accelerate research, repetitive implementation and code review, but it does not replace architecture, validation, testing or practical judgment. Those remain engineering responsibilities.</p>
                                 <div class="srv3-actions">
                                     <a class="srv3-button" target="_blank" href="https://wa.me/12048997142" title="Discuss a custom web application with Sean Roberts">Discuss Your Application</a>
-                                    <a class="srv3-button--secondary" href="mailto:info@seanroberts.ca" title="Email Sean Roberts">Email Sean</a>
+                                    <a class="srv3-button--secondary" href="mailto:seanroberts-ca@outlook.com" title="Email Sean Roberts">Email Sean</a>
                                 </div>
                             </div>
                             <figure class="srv3-figure">
@@ -386,7 +386,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
                         <p class="srv3-lead">If you need a custom portal, directory, database-driven system, workflow or major PHP/MySQL expansion, I can help turn the business requirement into a practical technical scope.</p>
                         <div class="srv3-actions">
                             <a class="srv3-button" target="_blank" href="https://wa.me/12048997142" title="Contact Sean Roberts about a custom web application">Call Sean Today!</a>
-                            <a class="srv3-button--secondary" href="mailto:info@seanroberts.ca" title="Email Sean Roberts">Email Sean</a>
+                            <a class="srv3-button--secondary" href="mailto:seanroberts-ca@outlook.com" title="Email Sean Roberts">Email Sean</a>
                         </div>
                     </section>
                 </section>

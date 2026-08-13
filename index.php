@@ -54,7 +54,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
           "image": "https://seanroberts.ca/social.png",
           "description": "SeanRoberts Web Design provides Canadian web design, full-stack development, custom PHP/MySQL solutions, and SEO-focused website builds at $50 - $75 per hour, with guaranteed customized quotes for larger projects.",
           "telephone": "+1-204-899-7142",
-          "email": "info@seanroberts.ca",
+          "email": "seanroberts-ca@outlook.com",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Winnipeg",
@@ -242,7 +242,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
 
                         <div class="lp-cta-row mb-30">
                             <!-- <a class="lp-button" title="Book a free consultation with Sean Roberts"
-                                href="mailto:info@seanroberts.ca">Book a Free Consultation Today!</a> -->
+                                href="mailto:seanroberts-ca@outlook.com">Book a Free Consultation Today!</a> -->
                             <a class="lp-button-secondary" title="Call Sean Roberts using WhatsApp (it's free to use)."
                                  target="_blank" href="https://wa.me/12048997142">Call
                                 Sean Today!</a>
@@ -264,7 +264,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
                                 <p>My work is development-led: design supports usability and business goals, while the underlying code is planned for performance, maintainability and the next phase of the website—not just the launch date.</p>
                                 <div class="srv3-actions">
                                     <a class="srv3-button" target="_blank" href="https://wa.me/12048997142" title="Discuss a PHP or MySQL project with Sean Roberts">Discuss Your Project</a>
-                                    <a class="srv3-button--secondary" href="mailto:info@seanroberts.ca" title="Email Sean Roberts at info@seanroberts.ca">Email Sean</a>
+                                    <a class="srv3-button--secondary" href="mailto:seanroberts-ca@outlook.com" title="Email Sean Roberts at seanroberts-ca@outlook.com">Email Sean</a>
                                 </div>
                             </div>
                             <figure class="srv3-figure">
@@ -371,7 +371,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
                         <p class="srv3-lead">Whether you need a targeted PHP fix, a MySQL-backed feature, a major modernization or a new custom web application, the first step is a clear discussion about scope and priorities.</p>
                         <div class="srv3-actions">
                             <a class="srv3-button" target="_blank" href="https://wa.me/12048997142" title="Contact Sean Roberts on WhatsApp">Call Sean Today!</a>
-                            <a class="srv3-button--secondary" href="mailto:info@seanroberts.ca" title="Email Sean Roberts">Request Project Information</a>
+                            <a class="srv3-button--secondary" href="mailto:seanroberts-ca@outlook.com" title="Email Sean Roberts">Request Project Information</a>
                         </div>
                     </section>
                 </section>

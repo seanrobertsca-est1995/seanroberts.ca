@@ -42,7 +42,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
         "image": "https://seanroberts.ca/social.png",
         "description": "SeanRoberts Web Design provides Canadian web design, full-stack development, custom PHP/MySQL solutions, and SEO-focused website builds.",
         "telephone": "+1-204-899-7142",
-        "email": "info@seanroberts.ca",
+        "email": "seanroberts-ca@outlook.com",
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Winnipeg",
@@ -276,7 +276,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
                 <span class="srv3-deadline">Offer valid until Dec. 1, 2026</span>
                 <div class="srv3-actions">
                     <a class="srv3-button" target="_blank" href="https://wa.me/12048997142" title="Contact Sean Roberts about a referral or website project">Start a Referral</a>
-                    <a class="srv3-button--secondary" href="mailto:info@seanroberts.ca" title="Email Sean Roberts">Email Sean</a>
+                    <a class="srv3-button--secondary" href="mailto:seanroberts-ca@outlook.com" title="Email Sean Roberts">Email Sean</a>
                 </div>
             </div>
             <aside class="srv3-offer__reward" aria-label="Referral reward summary">
@@ -375,7 +375,7 @@ if (!isset($timestamp) || !is_int($timestamp)) {
         <p class="srv3-lead">You do not have to estimate the project or sell the service. Connect us, make sure the prospective client identifies you, and I will take it from there.</p>
         <div class="srv3-actions">
             <a class="srv3-button" target="_blank" href="https://wa.me/12048997142" title="Start a referral with Sean Roberts">Start a Referral</a>
-            <a class="srv3-button--secondary" href="mailto:info@seanroberts.ca" title="Email Sean Roberts">Email Sean</a>
+            <a class="srv3-button--secondary" href="mailto:seanroberts-ca@outlook.com" title="Email Sean Roberts">Email Sean</a>
         </div>
     </section>
 </div>

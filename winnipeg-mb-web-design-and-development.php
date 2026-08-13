@@ -53,7 +53,7 @@ TWITTER CARD STANARD
         "image": "https://seanroberts.ca/social.png",
         "description": "SeanRoberts Web Design provides Canadian web design, full-stack development, custom PHP/MySQL solutions, and SEO-focused website builds.",
         "telephone": "+1-204-899-7142",
-        "email": "info@seanroberts.ca",
+        "email": "seanroberts-ca@outlook.com",
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Winnipeg",
@@ -269,7 +269,7 @@ TWITTER CARD STANARD
 
                         <div class="lp-cta-row mb-30">
                             <!-- <a class="lp-button" title="Book a free consultation with Sean Roberts"
-                                href="mailto:info@seanroberts.ca">Book a Free Consultation Today!</a> -->
+                                href="mailto:seanroberts-ca@outlook.com">Book a Free Consultation Today!</a> -->
                             <a class="lp-button-secondary" title="Call Sean Roberts using WhatsApp (it's free to use)."
                                 target="_blank" href="https://wa.me/12048997142">
                                 Call Sean Today!
@@ -292,7 +292,7 @@ TWITTER CARD STANARD
                                 <p>The visual layer is important, but it is not isolated from the technical work. Navigation, content hierarchy, responsive behaviour, performance, SEO structure and database requirements all affect the finished experience.</p>
                                 <div class="srv3-actions">
                                     <a class="srv3-button" target="_blank" href="https://wa.me/12048997142" title="Discuss a website design and development project with Sean Roberts">Discuss Your Website</a>
-                                    <a class="srv3-button--secondary" href="mailto:info@seanroberts.ca" title="Email Sean Roberts">Request Information</a>
+                                    <a class="srv3-button--secondary" href="mailto:seanroberts-ca@outlook.com" title="Email Sean Roberts">Request Information</a>
                                 </div>
                             </div>
                             <figure class="srv3-figure">
@@ -400,7 +400,7 @@ TWITTER CARD STANARD
                         <p class="srv3-lead">If the website needs to look polished, load efficiently and support real business functionality, I can help define both the interface and the implementation.</p>
                         <div class="srv3-actions">
                             <a class="srv3-button" target="_blank" href="https://wa.me/12048997142" title="Contact Sean Roberts about web design and development">Call Sean Today!</a>
-                            <a class="srv3-button--secondary" href="mailto:info@seanroberts.ca" title="Email Sean Roberts">Email Sean</a>
+                            <a class="srv3-button--secondary" href="mailto:seanroberts-ca@outlook.com" title="Email Sean Roberts">Email Sean</a>
                         </div>
                     </section>
                 </section>

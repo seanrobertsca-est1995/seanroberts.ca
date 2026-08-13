@@ -26,8 +26,8 @@
         </a>
 
         <!-- 
-        <a class="green-link fw-light" title="Email Sean: info@seanroberts.ca" href="mailto:info@seanroberts.ca">
-            info@seanroberts.ca
+        <a class="green-link fw-light" title="Email Sean: seanroberts-ca@outlook.com" href="mailto:seanroberts-ca@outlook.com">
+            seanroberts-ca@outlook.com
         </a> 
         -->
 
