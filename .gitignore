@@ -1,0 +1,24 @@
+# Ignore sensitive configuration files
+
+*.php
+.php_tmp
+.env*
+*.env*
+*db*
+*domains*
+desktop.ini
+chat-files
+
+# Ignore dev files
+
+*.log
+.git
+.vscode
+.php_tmp
+
+# Ignore OS files
+
+*.ini
+.DS_Store
+Thumbs.db
+desktop.ini
