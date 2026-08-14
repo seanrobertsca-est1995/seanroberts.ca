@@ -1,5 +1,6 @@
 # Ignore sensitive configuration files
 
+*.php_tmp
 *.php
 .php_tmp
 .env*
