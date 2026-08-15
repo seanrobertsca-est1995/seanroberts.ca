@@ -1,14 +1,11 @@
 # Ignore sensitive configuration files
 
-*.php_tmp
+*.git
 *.php
-.php_tmp
-.env*
+*.php_tmp
 *.env*
-*db*
-*domains*
 desktop.ini
-chat-files
+
 
 # Ignore dev files
 
