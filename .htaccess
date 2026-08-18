@@ -4,46 +4,67 @@
 RewriteEngine On
 
 # --------------------------------------------------
+# LEGACY URL REDIRECTS TO CURRENT STATIC HTML FILES
+# Permanent 301 redirects preserve existing links/SEO signals.
+# --------------------------------------------------
+
+# /index.php -> /
+RewriteRule ^index\.php$ https://seanroberts.ca/ [R=301,L,NE]
+
+# Legacy clean URLs -> current .html files
+RewriteRule ^ai-powered-php-mysql-web-application-developer/?$ https://seanroberts.ca/ai-powered-php-mysql-web-application-developer.html [R=301,L,NE]
+RewriteRule ^winnipeg-mb-web-design-and-development/?$ https://seanroberts.ca/winnipeg-mb-web-design-and-development.html [R=301,L,NE]
+RewriteRule ^current-website-dev-design-promotion/?$ https://seanroberts.ca/current-website-dev-design-promotion.html [R=301,L,NE]
+
+# Legacy directory index.php URLs -> current .html files
+RewriteRule ^ai-powered-php-mysql-web-application-developer/index\.php$ https://seanroberts.ca/ai-powered-php-mysql-web-application-developer.html [R=301,L,NE]
+RewriteRule ^winnipeg-mb-web-design-and-development/index\.php$ https://seanroberts.ca/winnipeg-mb-web-design-and-development.html [R=301,L,NE]
+RewriteRule ^current-website-dev-design-promotion/index\.php$ https://seanroberts.ca/current-website-dev-design-promotion.html [R=301,L,NE]
+
+# --------------------------------------------------
 # FORCE HTTPS (Recommended for SEO)
+# http://seanroberts.ca/ -> https://seanroberts.ca/
 # --------------------------------------------------
 RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 
 # --------------------------------------------------
+# OLD CLEAN-URL RULES -- DISABLED
+# These rules belonged to the former PHP URL structure and would
+# conflict with the current static .html pages.
+# --------------------------------------------------
+
 # REMOVE .php EXTENSION FROM URL (External Redirect)
-# Example: /page.php → /page/
-# --------------------------------------------------
-RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
-RewriteRule ^ %1/ [R=301,L]
+# Example: /page.php -> /page/
+# RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+# RewriteRule ^ %1/ [R=301,L]
 
-# --------------------------------------------------
 # FORCE TRAILING SLASH (SEO consistency)
-# Example: /page → /page/
-# --------------------------------------------------
-RewriteCond %{REQUEST_URI} !/$
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /$1/ [R=301,L]
+# Example: /page -> /page/
+# RewriteCond %{REQUEST_URI} !/$
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ /$1/ [R=301,L]
 
-# --------------------------------------------------
-# INTERNAL REWRITE (Clean URL → PHP file)
-# Example: /page/ → /page.php
-# --------------------------------------------------
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/$ $1.php [L]
+# INTERNAL REWRITE (Clean URL -> PHP file)
+# Example: /page/ -> /page.php
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^([^/]+)/$ $1.php [L]
 
 # --------------------------------------------------
 # PREVENT ACCESS TO PHP FILES DIRECTLY (OPTIONAL HARDENING)
-# Uncomment if you want to force clean URLs only
+# Disabled because the explicit legacy PHP redirects above must remain
+# reachable and because other PHP files may still exist on the site.
 # --------------------------------------------------
 # RewriteCond %{THE_REQUEST} \.php [NC]
 # RewriteRule ^ - [R=404,L]
 
 # --------------------------------------------------
 # DEFAULT INDEX HANDLING
+# Prefer the current static homepage.
 # --------------------------------------------------
-DirectoryIndex index.php index.html
+DirectoryIndex index.html index.php
 
 # --------------------------------------------------
 # CACHE CONTROL (Basic Performance Boost)

@@ -1,5 +1,9 @@
 # Ignore sensitive configuration files
-
+.env*
+*.zip
+*.bak*
+*.tar.gz
+migration.tar.gz
 *.git
 *.php
 *.php_tmp

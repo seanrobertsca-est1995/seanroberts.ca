@@ -1,16 +1,58 @@
-
 <!DOCTYPE html>
-<html style="height:100%">
+<html lang="en-CA" style="height:100%">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta http-equiv="refresh" content="5;URL='https://seanroberts.ca/'" />   
-<title> 404 Not Found</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; "><div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-<h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-<p><a href="https://seanroberts.ca/">Return to  Home Page</a></p>
-<p><a href="https://seanroberts.ca/">Redirecting in 5 seconds.</a></p>
-</div></div></body></html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex,follow">
+<title>404 Not Found</title>
+<script>
+(function () {
+    'use strict';
+
+    var redirects = {
+        '/index.php': '/',
+
+        '/ai-powered-php-mysql-web-application-developer.php':
+            '/ai-powered-php-mysql-web-application-developer/',
+        '/ai-powered-php-mysql-web-application-developer/index.php':
+            '/ai-powered-php-mysql-web-application-developer/',
+
+        '/winnipeg-mb-web-design-and-development.php':
+            '/winnipeg-mb-web-design-and-development/',
+        '/winnipeg-mb-web-design-and-development/index.php':
+            '/winnipeg-mb-web-design-and-development/',
+
+        '/current-website-dev-design-promotion.php':
+            '/current-website-dev-design-promotion/',
+        '/current-website-dev-design-promotion/index.php':
+            '/current-website-dev-design-promotion/'
+    };
+
+    var path = window.location.pathname.replace(/\/{2,}/g, '/');
+    var target = redirects[path];
+
+    if (target) {
+        window.location.replace(target + window.location.search + window.location.hash);
+    }
+}());
+</script>
+<meta http-equiv="refresh" content="5;URL='https://seanroberts.ca/'">
+<style>
+@media (prefers-color-scheme: dark) {
+    body { background-color:#000 !important; color:#ddd !important; }
+    a { color:#9fe3ff; }
+}
+</style>
+</head>
+<body style="color:#444;margin:0;font:normal 14px/20px Arial,Helvetica,sans-serif;height:100%;background-color:#fff;">
+<div style="height:auto;min-height:100%;">
+    <div style="text-align:center;width:min(800px,90vw);position:absolute;top:30%;left:50%;transform:translateX(-50%);">
+        <h1 style="margin:0;font-size:clamp(90px,20vw,150px);line-height:1;font-weight:bold;">404</h1>
+        <h2 style="margin-top:20px;font-size:30px;">Not Found</h2>
+        <p>The resource requested could not be found on this server.</p>
+        <p><a href="https://seanroberts.ca/">Return to Home Page</a></p>
+        <p><a href="https://seanroberts.ca/">Redirecting in 5 seconds.</a></p>
+    </div>
+</div>
+</body>
+</html>
